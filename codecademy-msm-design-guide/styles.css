@@ -1,0 +1,140 @@
+/* Simple CSS Reset */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Full Site */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  color: #525252;
+  background-color: #F2F2F2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.main-divisions {
+  border: 2px solid #CCCCCC;
+  background: white;
+  width: 80%;
+  margin: 20px auto;
+  min-height: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Colors Section */
+
+#colors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.color-sample {
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.color-description {
+  margin: 10px;
+  padding: 10px;
+  /* background-color: #f2f2f2; */
+}
+
+.color-description {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin: auto 0;
+}
+
+#primary {
+  background-color: #00A4E6;
+}
+
+#accent {
+  background-color: #2AB73F;
+}
+
+#light-grey {
+  background-color: #F7F7F7;
+}
+
+#med-grey {
+  background-color: #F2F2F2;
+}
+
+#dark-grey {
+  background-color: #CCCCCC;
+}
+
+#black {
+  background-color: #525252;
+}
+
+#red {
+  background-color: #990717;
+}
+
+/* Font-Families */
+#fonts p{
+  font-size: 1.2em;
+  padding: 20px;
+}
+#raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+#montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Text-Styles */
+
+#text-styles ul{
+  padding: 30px;
+  line-height: 1.5;
+}
+
+.centered {
+  text-align: center;
+}
