@@ -1,3 +1,5 @@
+--A project made with step-by-step instructions from Codecademy's React path --
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
